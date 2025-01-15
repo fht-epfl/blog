@@ -3,6 +3,7 @@ site_description: A blog about stuff
 site_url: https://sitename.example
 theme:
   name: material
+  custom_dir: overrides
   palette:
     # Dark Mode
     - scheme: slate
@@ -31,7 +32,16 @@ plugins:
         - Physics
         - Others
       post_url_format: "{slug}"
-    
+  - git-committers:
+      enabled: true
+      repository: fht-epfl/blog
+      branch: main
+      token: !ENV GH_TOKEN
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: false
+      enable_creation_date: true
+      enabled: true
   - tags:
       tags_file: tags.md
 
