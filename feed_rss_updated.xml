@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    
+    <title>My Blog</title>
+    <description>A blog about stuff</description>
+    <link>https://sitename.example/</link>
+    <atom:link href="https://sitename.example/feed_rss_updated.xml" rel="self" type="application/rss+xml" />
+
+    
+    
+    
+    <language>en</language>
+
+    
+    <pubDate>Wed, 15 Jan 2025 15:22:46 -0000</pubDate>
+    <lastBuildDate>Wed, 15 Jan 2025 15:22:46 -0000</lastBuildDate>
+    <ttl>1440</ttl>
+
+    
+    <generator>MkDocs RSS plugin - v1.16.0</generator>
+
+    
+    
+
+    
+    
+    <item>
+      <title>Sui Basic</title>
+      
+      
+        
+      <author>Haotian</author>
+        
+      
+      
+      
+      <description>&lt;h1&gt;Sui Basic&lt;/h1&gt;
+&lt;div style=&#34;text-align: center;&#34; markdown=&#34;1&#34;&gt;
+&lt;h2 style=&#34;font-weight: bold; text-decoration: underline; padding: 10px; border-radius: 5px;&#34;&gt;
+Sha...</description>
+      <link>https://sitename.example/sui-basic/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <source url="https://sitename.example/feed_rss_updated.xml">My Blog</source>
+      
+      <guid isPermaLink="true">https://sitename.example/sui-basic/</guid>
+      
+    </item>
+    
+  </channel>
+</rss>
